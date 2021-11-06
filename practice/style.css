@@ -20,7 +20,9 @@
 .border{
     border: inset 10px gold ;
     font-size: 30px;
-     
+    padding: 20px 250px ; 
+    margin: 15px 200px ;
+    background: rgb(207, 201, 201);
 }
 .border3{
     height: 100px;
