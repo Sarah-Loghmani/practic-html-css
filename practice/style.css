@@ -4,9 +4,9 @@
   background-color: khaki;
 }
 #header-img{
-    background-color:#a22115;
+    /* background-color:#a22115; */
     height: 400px;
-    border: dotted gold 40px ;
+    border: dotted #a22115 40px ;
     border-radius: ;
 }
 .img{
