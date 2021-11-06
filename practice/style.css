@@ -15,22 +15,24 @@
 }
 .border{
     border: inset 10px gold ;
-    
+    font-size: 30px   
 }
 .border3{
     height: 100px;
     border-style: dotted solid dashed;
     border-width: 10px;
+    font-size: 1.5rem;
 }
 #lorem{
-   height: 250px;
+   height: 290px;
+   font-size: 15px;
 }
 .border-width{
     border: dashed rgb(57, 151, 93);
     border-width: 10px 20px 30px 10px;
     border-radius:  20px / 60px;
     background:burlywood;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 .arrow{
     height: 0;
@@ -42,23 +44,28 @@
     background: rgb(115, 30, 161);
     height: 30px;
     color: white;
+    font-size: 1.6rem;
 }
-
 .arrow1{
      height: 0;
     width: 0;
     border: solid 40px;
     border-color: transparent transparent red transparent;
-    
-
 }
 .arrow2{
     height: 0;
     width: 0;
-    border-top: solid transparent 200px;
-    border-right: solid transparent 200px;
-    border-bottom: solid transparent 200px;
-    border-left: solid yellow 200px;
+    border-top: solid transparent 150px;
+    border-right: solid transparent 150px;
+    border-bottom: solid transparent 150px;
+    border-left: solid yellow 150px;
+}
+.arrow3{
+
+     height: 0;
+    width: 0;
+    border: solid 20px;
+    border-color: black transparent transparent transparent;
 }
 .border4{
     background-color: rgb(221, 138, 138);
