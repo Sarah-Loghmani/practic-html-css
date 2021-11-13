@@ -84,3 +84,49 @@ ul li:last-child {
 } 
 /* Nth Child Pseudo-selector
 Select an element by its order in another element */
+:nth-child(8) {
+selects every element that is the 8th child of another element.
+} 
+div p:nth-child(2) {
+    selects the second p in every div
+} 
+/* Nth Last Child Selector */
+:nth-last-child(A){
+    Selects the children from the bottom of the parent.
+     This is like nth-child, but counting from the back!
+}
+:nth-last-child(2){
+    selects all second-to-last child elements.
+} 
+/* First of Type Selector */
+:first-of-type{
+    Selects the first element of that type within another element.
+}
+span:first-of-type{
+    selects the first span in any element.
+} 
+Nth of Type Selector
+:nth-of-type(A){
+    Selects a specific element based on its type and order
+     in another element - or even or odd instances of that element.
+}
+/* Nth-of-type Selector with Formula */
+:nth-of-type(An+B){
+   selects every nth element,
+    starting the count at a specific instance of that element.
+}
+span:nth-of-type(6n+2){
+    selects every 6th instance of a span,
+    starting from (and including) the second instance.
+}
+/* Only of Type Selector
+ Select elements that are the only ones of their type
+ within of their parent element. */
+:only-of-type{
+    Selects the only element of its type within another element.
+}
+p span:only-of-type{
+    selects a span within any p if it is the only span in there.
+} 
+Last of Type Selector
+Select the last element of a specific type
