@@ -105,7 +105,7 @@ div p:nth-child(2) {
 span:first-of-type{
     selects the first span in any element.
 } 
-Nth of Type Selector
+/* Nth of Type Selector */
 :nth-of-type(A){
     Selects a specific element based on its type and order
      in another element - or even or odd instances of that element.
